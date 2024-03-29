@@ -1,0 +1,29 @@
+.navbar-custom {
+    background-color: purple;
+}
+
+.img-party {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.main-section {
+    width: 100%;
+    position: relative;
+    margin: 0;
+    padding: 2%;
+    color: white;
+
+    a {
+        background-color: purple;
+        border: purple;
+
+        &:hover {
+            background-color: blueviolet;
+            border: blueviolet;
+        }
+    }
+}
